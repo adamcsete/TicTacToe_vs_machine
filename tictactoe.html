@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='iso-8895-2'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Game</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./tictactoe.css'>
+    <script src='./tictactoe.js'></script>
+</head>
+<body>
+    <h1> OXO játék</h1>
+    <h2 id = "gamercolor" style="color: red;">Játékos jön</h2>
+    <table>
+        <tr>
+          <td style = "background-color: red"></td>
+          <td class="headbrick"></td>
+          <td style = "background-color: blue"></td>
+        </tr>
+        <tr>
+          <td class="headbrick"></td>
+          <td class="headbrick"></td>
+          <td class="headbrick"></td>
+        </tr>
+        <tr>
+          <td id = "00" onmouseover = "mover(this);" onmouseout = "mout(this);" onclick = "gameLogic(this);"></td>
+          <td id = "01" onmouseover = "mover(this);" onmouseout = "mout(this);" onclick = "gameLogic(this);"></td>
+          <td id = "02" onmouseover = "mover(this);" onmouseout = "mout(this);" onclick = "gameLogic(this);"></td>
+        </tr>
+        <tr>
+          <td id = "10" onmouseover = "mover(this);" onmouseout = "mout(this);" onclick = "gameLogic(this);"></td>
+          <td id = "11" onmouseover = "mover(this);" onmouseout = "mout(this);" onclick = "gameLogic(this);"></td>
+          <td id = "12" onmouseover = "mover(this);" onmouseout = "mout(this);" onclick = "gameLogic(this);"></td>
+        </tr>
+        <tr>
+          <td id = "20" onmouseover = "mover(this);" onmouseout = "mout(this);" onclick = "gameLogic(this);"></td>
+          <td id = "21" onmouseover = "mover(this);" onmouseout = "mout(this);" onclick = "gameLogic(this);"></td>
+          <td id = "22" onmouseover = "mover(this);" onmouseout = "mout(this);" onclick = "gameLogic(this);"></td>
+        </tr>
+      </table>
+
+      <button id = "newgame" onclick="newGame();">Új játék</button>
+    
+</body>
+</html>

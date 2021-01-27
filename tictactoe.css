@@ -1,0 +1,51 @@
+body {
+  font-family: Calibri;
+  font-size: 200%;
+  background-color: #d8bfd8;
+}
+
+h1 {
+  font-size: 200%;
+  position: absolute;
+  top: 0%;
+  left: 10%;
+}
+
+h2 {
+  font-size: 150%;
+  position: absolute;
+  top: 0%;
+  right: 20%;
+}
+
+table {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  border: none;
+}
+
+td {
+  width: 10vh;
+  background-color: #ffffff;
+  color: #ffffff;
+  text-align: center;
+  font-size: 8vh;
+}
+
+tr {
+  height: 10vh;
+}
+
+.headbrick {
+  background-color: #d8bfd8;
+}
+
+#newgame {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  display: none;
+  font-size: 10vh;
+  background-color: #bdb76b;
+}
